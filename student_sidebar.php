@@ -3,18 +3,16 @@
 
     <header class="">
         
-
         <a href="#!" class="menu-toggle">
             <i class="fas fa-bars"></i>
-        </a>      
-
-        <img src="../uploads/el.png" style="width: 180px; margin-bottom: 25px; margin-top: 10px;" class="img-fluid" alt="...">
-        
-        
+        </a>        
+     
     </header>
     <nav class="dash-nav-list bg-success">
-         
-        
+        <div class="text-center">
+            <img src="./uploads/logo.png" style="width: 110px;" class="img-fluid" alt="...">
+              <h6 class="text-white font-weight-bold">AASMNHS E-LEARNING</h6> 
+        </div> 
             <div class="bg-light"> 
 			<a class="dash-nav-item text-success" href="dashboard_student.php"><i class="fas fa-users"></i>My Class</a>
             </div>
