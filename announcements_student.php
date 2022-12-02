@@ -28,11 +28,11 @@
 									<div class="post"  id="del<?php echo $id; ?>">
 										<?php echo $row['content']; ?>
 										
-										<hr>
-											
 										
+										
+										<br>
 										<strong><i class="icon-calendar"></i> <?php echo $row['date']; ?></strong>
-											
+										<hr>	
 									</div>
 											
 								    <?php }}else{ ?>

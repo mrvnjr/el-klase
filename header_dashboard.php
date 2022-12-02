@@ -2,8 +2,13 @@
 <html lang="en">
 
 <head>
+    <title>EL-Klase : AASMNHS LMS</title>
+    <meta name="description" content="Learning Management System">
+    <meta name="keywords" content="EL-KLASE,AASMNHSLMS,AASMNHS,LMS,AASMNHSE-LEARNING,">
+    <meta name="author" content="MARVIN MAGBOO JR">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./uploads/logo.png" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
@@ -20,6 +25,6 @@
     <script src="./js/chart-js-config.js"></script>
     <script src="./js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.8/jquery.jgrowl.min.js"></script>
-    <title>Elk</title>
+    
 </head>
 <?php include('admin/dbcon.php'); ?>
