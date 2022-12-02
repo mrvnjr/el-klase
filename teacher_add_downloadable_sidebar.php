@@ -6,7 +6,10 @@
         </a>
     </header>
     <nav class="dash-nav-list bg-success">
-        
+            <div class="text-center">
+				<img src="./uploads/logo.png" style="width: 110px;" class="img-fluid" alt="...">
+				<h6 class="text-white font-weight-bold">AASMNHS E-LEARNING</h6> 
+			</div>
             <div class=""> 
                 <a href="dasboard_teacher.php" class="dash-nav-item text-white">
                     <i class="fas fa-home"></i> My Class 

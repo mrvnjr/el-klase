@@ -15,7 +15,6 @@
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
         <a class="dropdown-item"  tabindex="-1" href="change_password_student.php">Change Password</a>
         <a class="dropdown-item" tabindex="-1" href="#myModal_student" data-toggle="modal">Change Avatar</a>
-        <a class="dropdown-item" href="#!">Profile</a>
         <a class="dropdown-item" href="logout.php">Logout</a>
     </div>
 </div>
