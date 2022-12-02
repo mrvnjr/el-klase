@@ -5,7 +5,10 @@
         </a>
     </header>
     <nav class="dash-nav-list bg-success">
-        
+			<div class="text-center">
+				<img src="./uploads/logo.png" style="width: 110px;" class="img-fluid" alt="...">
+				<h6 class="text-white font-weight-bold">AASMNHS E-LEARNING</h6> 
+			</div>
             <div class="border-top"> 
 			<a class="dash-nav-item text-white" href="dashboard_student.php"><i class="fas fa-arrow-alt-circle-left">
 				</i>Back
@@ -13,13 +16,13 @@
             </div>
 
             <div class="border-top">
-                <a class="dash-nav-item text-white" href="my_classmates.php <?php echo '?id='.$get_id; ?>"><i class="fas fa-users">
+                <a class="dash-nav-item text-white" href="my_classmates.php<?php echo '?id='.$get_id; ?>"><i class="fas fa-users">
 				</i>My Classmates		
 				</a>
             </div>
 
 			<div class="border-top">
-                <a class="dash-nav-item text-white" href="progress.php <?php echo '?id='.$get_id; ?>"><i class="fas fa-sort-amount-up">
+                <a class="dash-nav-item text-white" href="progress.php<?php echo '?id='.$get_id; ?>"><i class="fas fa-sort-amount-up">
 				</i>My progress	
 				</a>
             </div>
@@ -37,19 +40,19 @@
             </div>
 
 			<div class="border-top">
-                <a class="dash-nav-item text-white" href="assignment_student.php <?php echo '?id='.$get_id; ?>"><i class="fas fa-plus-circle">
+                <a class="dash-nav-item text-white" href="assignment_student.php<?php echo '?id='.$get_id; ?>"><i class="fas fa-plus-circle">
 				</i>Assignment
 				</a>
             </div>
 
 			<div class="bg-light">
-                <a class="dash-nav-item text-success" href="announcements_student.php <?php echo '?id='.$get_id; ?>"><i class="fas fa-user-cog">
+                <a class="dash-nav-item text-success" href="announcements_student.php<?php echo '?id='.$get_id; ?>"><i class="fas fa-user-cog">
 				</i>Annoucement
 				</a>
             </div>
 
 			<div class="border-top">
-                <a class="dash-nav-item text-white" href="student_quiz_list.php <?php echo '?id='.$get_id; ?>"><i class="fas fa-plus-circle">
+                <a class="dash-nav-item text-white" href="student_quiz_list.php<?php echo '?id='.$get_id; ?>"><i class="fas fa-plus-circle">
 				</i>Quiz
 				</a>
             </div>
