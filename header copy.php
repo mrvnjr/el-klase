@@ -25,8 +25,5 @@
     <script src="../js/chart-js-config.js"></script>
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.8/jquery.jgrowl.min.js"></script>
-    <script src=
-        "https://www.google.com/recaptcha/api.js" async defer>
-    </script>
 </head>
 <?php include('dbcon.php'); ?>

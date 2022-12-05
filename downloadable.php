@@ -56,7 +56,7 @@
 																	<td><?php echo $row['uploaded_by']; ?></td>                                      
 																	<td width="40">
 																	<a  data-placement="bottom" title="Download" id="<?php echo $id; ?>download" href="<?php echo $row['floc']; ?>"><i class="fas fa-download fa-large"></i></a>
-																	<a  data-placement="bottom" title="Remove" id="<?php echo $id; ?>remove" href="#<?php echo $id; ?>" data-toggle="modal"><i class="far fa-trash-alt fa-large"></i></a>
+																	<a  data-placement="bottom" title="Remove" id="<?php echo $id; ?>remove" href="#modal-<?php echo $id; ?>" data-toggle="modal"><i class="far fa-trash-alt fa-large"></i></a>
 																	<?php include('delete_download_modal.php'); ?>
 																	</td>                                      
 																	<td width="30">

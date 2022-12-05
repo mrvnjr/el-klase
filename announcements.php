@@ -48,20 +48,20 @@
 									?>
 										<div class="post form-group"  id="del<?php echo $id; ?>">
 											<?php echo $row['content']; ?>		
-												<hr>			
-											
-											<strong><i class="fas fa-calendar-alt"></i> <?php echo $row['date']; ?></strong>
+											<br>
+											<strong><i class="fas fa-calendar-alt mt-2"></i> <?php echo $row['date']; ?></strong>
 											
 											<div class="float-right">
-												<a class="btn btn-link"  href="#<?php echo $id; ?>" data-toggle="modal" ><i class="fas fa-trash-alt"></i> </a>
+												<a class="btn btn-link"  href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>"><i class="fas fa-trash-alt"></i> </a>
 											</div>
-								
+											
 											<div class="float-right">
 												<form method="post" action="edit_post.php<?php echo'?id='.$get_id; ?>">
 													<input type="hidden" name="id" value="<?php echo $id; ?>">
 													<button class="btn btn-link" name="edit"><i class="fas fa-pen"></i> </button> 
 												</form>
 											</div>	
+											<hr>			
 											
 										</div>
 									<?php include("remove_sent_message_modal.php"); ?>

@@ -1,5 +1,5 @@
 						<!-- Modal -->
-<div id="<?php echo $id; ?>" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="modal-<?php echo $id; ?>" class="modal fade" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -15,7 +15,7 @@
 	</div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button id="<?php echo $id; ?>" class="btn btn-danger remove" name="change">Yes</button>
+        <button id="<?php echo $id; ?>" class="btn btn-danger remove" data-dismiss="modal" name="change">Yes</button>
       </div>
     </div>
   </div>

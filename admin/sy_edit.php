@@ -1,5 +1,6 @@
 <?php include('header.php');?>
 <?php  include('session.php'); ?>
+<?php $get_id = $_GET['id']; ?>
 <body>
 <div class="dash">  
     <?php include('sy_sidebar.php'); ?>      
@@ -13,7 +14,7 @@
 					<h1>School Year</h1>
                     <div class="row">
                         <div class="col-lg-4" id="adduser">
-						<?php include('add_school_year.php'); ?>
+						<?php include('edit_school_year.php'); ?>
                         </div>
                        <div class="col-lg-8" id="">
                             <!--card-->
@@ -49,8 +50,9 @@
 	
 												
 											
-												<td width="50"><a href="sy_edit.php<?php echo '?id='.$id; ?>" class="btn btn-success"><i class="fas fa-edit"></i></a></td>
-
+												<td width="40">
+												<a href="sy_edit.php<?php echo '?id='.$id; ?>"class="btn btn-success"><i class="fas fa-edit"></i></a>
+												</td>
 		
 									
 												</tr>

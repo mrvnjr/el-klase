@@ -3,7 +3,7 @@
 <?php $get_id = $_GET['id']; ?>
 <body>
 <div class="dash">  
-	<?php include('quiz_link.php'); ?>    
+	<?php include('quiz_sidebar_teacher.php'); ?>    
     <div class="dash-app">
             <header class="dash-toolbar ">
 				<?php include('navbar_teacher.php');?>

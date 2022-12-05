@@ -13,7 +13,7 @@
 			<li id="del<?php echo $id; ?>" class="m-1 card">
 				<a href="my_students.php<?php echo '?id='.$id; ?>">
 						<!-- <img src ="<?php echo $row['thumbnails'] ?>" width="124" height="140" class="img-polaroid" alt=""> -->
-						<i class="fas fa-chalkboard-teacher fa-5x m-2"></i>
+						<i class="fas fa-chalkboard-teacher fa-4x m-2"></i>
 					<div>
 					<span><p><?php echo $row['class_name']; ?></p></span>
 					</div>

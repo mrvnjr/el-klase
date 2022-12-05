@@ -38,7 +38,7 @@
 											?>
 											<li id="del<?php echo $id; ?>" class="m-1 card	">
 													<a href="#">
-															<img id="student_avatar_class" src ="admin/<?php echo $row['location'] ?>" width="120" height="140" class="img-thumbnail">
+															<img id="student_avatar_class" src ="admin/<?php echo $row['location'] ?>" width="110" height="120" class="img-thumbnail">
 														<div>
 														<span>
 														<p><?php ?></p>
@@ -48,7 +48,7 @@
 													</a>
 													<p class="class"><?php echo $row['lastname'];?></p>
 													<p class="subject"><?php echo $row['firstname']; ?></p>
-													<a  href="#<?php echo $id; ?>" data-toggle="modal"><i class="fas fa-trash-alt"></i> Remove</a>	
+													<a  href="#modal-<?php echo $id; ?>" data-toggle="modal"><i class="fas fa-trash-alt"></i> Remove</a>	
 											</li>
 											<?php include("remove_student_modal.php"); ?>
 											<?php } ?>

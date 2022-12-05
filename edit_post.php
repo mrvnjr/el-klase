@@ -1,6 +1,10 @@
 <?php include('header_dashboard.php'); ?>
 <?php include('session.php'); ?>
 <?php $get_id = $_GET['id']; ?>
+<?php
+
+ $get_id1 = $_POST['id'];
+ ?>
 <body>
 	<div class="dash">  
 		<?php include('annoucement_link.php'); ?>
@@ -19,15 +23,15 @@
 										<br>
 										<br>
 									<form method="post">
-										<?php
-											$query_announcement = mysqli_query($conn,"select * from teacher_class_announcements where teacher_id = '$session_id' and teacher_class_announcements_id = '$get_id1'  and  teacher_class_id = '$get_id' order by date DESC")or die(mysqli_error());
-											$row = mysqli_fetch_array($query_announcement);
-											$id = $row['teacher_class_announcements_id'];
-										?>
+									<?php
+								 $query_announcement = mysqli_query($conn,"select * from teacher_class_announcements
+																	where teacher_id = '$session_id' and teacher_class_announcements_id = '$get_id1'  and  teacher_class_id = '$get_id' order by date DESC
+																	")or die(mysqli_error());
+								$row = mysqli_fetch_array($query_announcement);
+								 $id = $row['teacher_class_announcements_id'];
+								 ?>
 											<input type="hidden" name="id" value="<?php echo $id; ?>">
-											<textarea name="content" class="form-control" id="ckeditor_full">
-												<?php echo $row['content']; ?>
-											</textarea>
+											<textarea name="content" class="form-control" id="ckeditor_full"><?php echo $row['content']; ?></textarea>
 										<br>
 										<button name="post" class="btn btn-info"><i class="icon-check icon-large"></i> Post</button>
 									</form>

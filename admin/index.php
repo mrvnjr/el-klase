@@ -12,6 +12,9 @@
                     <div class="form-group">
 						<input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
                     </div>
+					<div class="g-recaptcha" 
+						data-sitekey="6LckPVMjAAAAAKQoFwut4_2wan2eXPkMLmAl48Tw">
+					</div>
                     <div class="account-dialog-actions">
                         <button name="login" class="btn btn-success" type="submit">Sign in</button>
                     </div>
